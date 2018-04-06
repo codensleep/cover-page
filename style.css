@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+.one {
+    background-image: url(img/1.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two-content {
+    margin-top: 100px;
+}
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'one, two'
+}
+.social {
+    margin-top: 60px;
+}
+.social ul {
+    text-align: center;
+}
+.social ul li {
+    display: inline;
+    text-decoration: none;
+}
+.text {
+    margin-left: 20px;
+   
+}
+.fab {
+    margin-right: 30px;
+}
+.fas {
+    margin-right: 10px;
+}
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    position: relative;
+    top: 40%;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+.description{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    margin-top: 40px;
+}
+a {
+    color: black
+}
+a:hover {
+    color: black;
+    opacity: 0.6;
+    transition: 0.5s;
+}
